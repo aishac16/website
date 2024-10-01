@@ -2,18 +2,21 @@
   /*background-color: #04AA6D; /* Green */
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 50px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 22px;
+  margin: 4px 4px;
   transition-duration: 0.3s;
   cursor: pointer;
 }
 
 .button1 {
-  background: white; 
+  background-image: url('images/babypinkbackground.jpg'); 
+  background-size: cover;
+  backgroun-position: center;
+  border: none;
   color: white; 
 }
 
