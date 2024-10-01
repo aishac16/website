@@ -19,6 +19,8 @@
   backgroun-position: center;
   border: none;
   color: white; 
+  /*fail safe background color*/
+  background-color: pink;
 }
 
 .button1:hover {
@@ -26,3 +28,20 @@
   border: 2px solid #FFB7CE;
   color: #FFB7CE;
 }
+
+.button2 {
+  background-image: url('...images/babypinkbackground.jpg'); 
+  background-size: cover;
+  backgroun-position: center;
+  border: none;
+  color: white; 
+  /*fail safe background color*/
+  background-color: pink;
+}
+
+.button2:hover {
+  background-color: white;
+  border: 2px solid #CCCCFF;
+  color: #CCCCFF;
+}
+
