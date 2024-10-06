@@ -70,25 +70,26 @@
 }
 
 nav {
-  float: left;
   background-color: #503130;
   width: 100%;
+  margin: 0px;
+  padding:0px;
   text-align: center;
 }
 /*now need to code the individual items in the total nav*/
 nav ul {
   list-style-type: none;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0px 15px;
+  margin: 0% 15%;
 }
 
 nav ul li a {
   color: white;
-  padding: 8px 16px;
+  padding: 8% 16%;
 }
 
 /* Style for the active page link */
