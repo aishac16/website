@@ -26,13 +26,18 @@
       Welcome to my site :). You all will get to know me as I get to know myself.<br>
       P.S. I'm learning how to make my site as I make my site LOL
     </h2>
-    <h2>Submit feedback for my website!</h2>
+    <h2>Suggestion and Question Box!</h2>
 
-<form action="/feedback.php">
+<form action="mailto:aishacora2002@gmail.com" method = "post" enctype = "text/plain">
   <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" value=" "><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email (Optional):</label><br>
+  <input type="text" id="email" name="email" ><br>
+  
   <label for="suggestion">Feedback or Question:</label><br>
-  <input type="text" id="sugestion" name="suggestion" value=" "><br><br>
+  <input type="text" id="sugestion" name="suggestion" required><br><br>
+  
   <input type="submit" value="Submit">
 </form> 
     </body>
