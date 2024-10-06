@@ -1,6 +1,6 @@
 body {
   margin:0px;
- padding: 20px;
+
 }
 .button {
   /*background-color: #04AA6D; /* Green */
@@ -76,11 +76,12 @@ body {
 nav {
   background-color: #503130;
   width: 100%;
-  margin-bottom: 10%;
+ /* margin-bottom: 10%;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding:1%;
+  */
   text-align: center;
   top:0;
 }
@@ -88,6 +89,8 @@ nav {
 nav ul {
   list-style-type: none;
   display: inline;
+  margin:0;
+  padding:0'
 }
 
 nav ul li {
@@ -108,4 +111,8 @@ nav ul li a.active {
   background-color: white; /* White background for active */
   color: #503130; /* Brown text for active */
   border-bottom: 3px solid #503130; /* Brown underline */
+}
+
+p {
+  paddding: 10px;
 }
