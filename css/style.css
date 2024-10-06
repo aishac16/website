@@ -1,6 +1,6 @@
 body {
   margin-top:0;
-  padding:0;
+  padding:10px;
 }
 .button {
   /*background-color: #04AA6D; /* Green */
@@ -93,6 +93,8 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 0% 2% 0% 2%;
+  white-space: nowrap;
+
 }
 
 nav ul li a {
