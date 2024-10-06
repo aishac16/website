@@ -69,6 +69,10 @@
   width: 320px;
 }
 
-nav {
-  float: left:
+.nav {
+  float: left;
+  background-color: #503130;
+  color: white;
+  display: block;
+  paddomg: 8px;
 }
