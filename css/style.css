@@ -69,10 +69,31 @@
   width: 320px;
 }
 
-.nav {
+nav {
   float: left;
   background-color: #503130;
+  width: 100%;
+  text-align: center;
+}
+/*now need to code the individual items in the total nav*/
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+nav ul li a {
   color: white;
-  display: block;
-  paddomg: 8px;
+  padding: 8px 16px;
+}
+
+/* Style for the active page link */
+nav ul li a.active {
+  background-color: white; /* White background for active */
+  color: #503130; /* Brown text for active */
+  border-bottom: 3px solid #503130; /* Brown underline */
 }
