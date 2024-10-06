@@ -1,3 +1,7 @@
+body {
+  margin:0;
+  padding:0;
+}
 .button {
   /*background-color: #04AA6D; /* Green */
   border: none;
@@ -76,23 +80,24 @@ nav {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding:0px;
+  padding:1%;
   text-align: center;
+  top:0;
 }
 /*now need to code the individual items in the total nav*/
 nav ul {
   list-style-type: none;
-  /*display: inline-block;*/
+  display: inline;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0% 2%;
+  margin: 0% 2% 0% 2%;
 }
 
 nav ul li a {
   color: white;
-  padding: 1% 3%;
+  padding: 1% 3% 1% 3%;
 }
 
 /* Style for the active page link */
