@@ -2,6 +2,10 @@ body {
   margin:0px;
 
 }
+
+section {
+  margin: 15px;
+}
 .button {
   /*background-color: #04AA6D; /* Green */
   border: none;
