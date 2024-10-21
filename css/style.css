@@ -10,15 +10,23 @@ section {
   /*background-color: #04AA6D; /* Green */
   border: none;
   color: white;
-  padding: 25px 25px;
+  text-align:center;
+  align-items:center;
+  justify-content: center; /* Centers the text horizontally */
+  padding: 5px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 18px;
   margin: 4px 4px;
   transition: background-color 0.3s, color 0.3s
   /* transition-duration: 0.3s; */
   cursor: pointer;
+  height: 50px;
+  width:50px;
+  /* Ensure text wraps onto a new line if too long */
+  white-space: normal; /* Allows text to wrap */
+  overflow: hidden; /* Keeps text inside the box */
 }
 
 .button1 {
