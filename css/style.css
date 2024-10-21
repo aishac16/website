@@ -89,7 +89,8 @@ nav {
   */
   text-align: center;
   top:0;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 /*now need to code the individual items in the total nav*/
 nav ul {
